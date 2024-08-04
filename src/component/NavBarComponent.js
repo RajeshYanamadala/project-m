@@ -18,6 +18,7 @@ function NavBars() {
                     <Nav className="me-auto" style={{ width: "-webkit-fill-available", justifyContent: "flex-end" }}>
                         <Nav.Link as={Link} to="/" className="navBar-text">Home</Nav.Link>
                         <Nav.Link as={Link} to="/link" className="navBar-text">Link</Nav.Link>
+                        <Nav.Link as={Link} to="/gallery" className="navBar-text">Gallery</Nav.Link>
                         <NavDropdown title="Services" id="basic-nav-dropdown" className="navBar-text">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">
